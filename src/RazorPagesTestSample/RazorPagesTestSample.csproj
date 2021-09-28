@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <!-- 5.0.0 is done specially to show Dependabot in action -->
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.0" />
   </ItemGroup>
