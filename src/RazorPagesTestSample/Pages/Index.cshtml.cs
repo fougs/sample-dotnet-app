@@ -9,7 +9,8 @@ namespace RazorPagesTestSample.Pages
 {
     public class IndexModel : PageModel
     {
-        private readonly AppDbContext _db;
+        // not adding readonly so code quality can pick this up
+        private AppDbContext _db;
 
         public IndexModel(AppDbContext db)
         {
